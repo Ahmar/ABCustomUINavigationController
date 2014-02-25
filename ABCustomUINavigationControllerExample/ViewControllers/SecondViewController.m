@@ -10,7 +10,13 @@
 #import "ThirthViewController.h"
 #import "FlipSquaresNavigationController.h"
 
-@interface SecondViewController ()
+#import "M13ProgressHUD.h"
+#import "M13ProgressViewRing.h"
+#import "AppDelegate.h"
+
+@interface SecondViewController (){
+     M13ProgressHUD *HUD;
+}
 - (IBAction)popViewController:(id)sender;
 @end
 
@@ -31,6 +37,26 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    HUD = [[M13ProgressHUD alloc] initWithProgressView:[[M13ProgressViewRing alloc] init]];
+    HUD.progressViewSize = CGSizeMake(60.0, 60.0);
+    UIWindow *window = ((AppDelegate *)[UIApplication sharedApplication].delegate).window;
+    [window addSubview:HUD];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [HUD show:YES];
+    
+    [self performSelector:@selector(removeHUD) withObject:nil afterDelay:2];
+}
+
+- (void) removeHUD
+{
+    [HUD hide:YES];
 }
 
 - (void)didReceiveMemoryWarning

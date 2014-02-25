@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C252DC218BD200100647D7E /* M13ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DBF18BD200100647D7E /* M13ProgressHUD.m */; };
+		3C252DC318BD200100647D7E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DC118BD200100647D7E /* UIImage+ImageEffects.m */; };
+		3C252DD918BD208300647D7E /* M13ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DC618BD208300647D7E /* M13ProgressView.m */; };
+		3C252DDA18BD208300647D7E /* M13ProgressViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DC818BD208300647D7E /* M13ProgressViewBar.m */; };
+		3C252DDB18BD208300647D7E /* M13ProgressViewBorderedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DCA18BD208300647D7E /* M13ProgressViewBorderedBar.m */; };
+		3C252DDC18BD208300647D7E /* M13ProgressViewFilteredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DCC18BD208300647D7E /* M13ProgressViewFilteredImage.m */; };
+		3C252DDD18BD208300647D7E /* M13ProgressViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DCE18BD208300647D7E /* M13ProgressViewImage.m */; };
+		3C252DDE18BD208300647D7E /* M13ProgressViewPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DD018BD208300647D7E /* M13ProgressViewPie.m */; };
+		3C252DDF18BD208300647D7E /* M13ProgressViewRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DD218BD208300647D7E /* M13ProgressViewRing.m */; };
+		3C252DE018BD208300647D7E /* M13ProgressViewSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DD418BD208300647D7E /* M13ProgressViewSegmentedBar.m */; };
+		3C252DE118BD208300647D7E /* M13ProgressViewSegmentedRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DD618BD208300647D7E /* M13ProgressViewSegmentedRing.m */; };
+		3C252DE218BD208300647D7E /* M13ProgressViewStripedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C252DD818BD208300647D7E /* M13ProgressViewStripedBar.m */; };
+		3C252DE418BD20EC00647D7E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C252DE318BD20EC00647D7E /* Accelerate.framework */; };
 		3CCCEAE117B4E0A800750A12 /* NSObject+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCEAD417B4E0A800750A12 /* NSObject+ABExtras.m */; };
 		3CCCEAE217B4E0A800750A12 /* UIImageView+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCEAD617B4E0A800750A12 /* UIImageView+ABExtras.m */; };
 		3CCCEAE317B4E0A800750A12 /* UINavigationController+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCEAD817B4E0A800750A12 /* UINavigationController+ABExtras.m */; };
@@ -42,6 +55,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C252DBE18BD200100647D7E /* M13ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressHUD.h; sourceTree = "<group>"; };
+		3C252DBF18BD200100647D7E /* M13ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressHUD.m; sourceTree = "<group>"; };
+		3C252DC018BD200100647D7E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3C252DC118BD200100647D7E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		3C252DC518BD208300647D7E /* M13ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressView.h; sourceTree = "<group>"; };
+		3C252DC618BD208300647D7E /* M13ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressView.m; sourceTree = "<group>"; };
+		3C252DC718BD208300647D7E /* M13ProgressViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewBar.h; sourceTree = "<group>"; };
+		3C252DC818BD208300647D7E /* M13ProgressViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewBar.m; sourceTree = "<group>"; };
+		3C252DC918BD208300647D7E /* M13ProgressViewBorderedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewBorderedBar.h; sourceTree = "<group>"; };
+		3C252DCA18BD208300647D7E /* M13ProgressViewBorderedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewBorderedBar.m; sourceTree = "<group>"; };
+		3C252DCB18BD208300647D7E /* M13ProgressViewFilteredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewFilteredImage.h; sourceTree = "<group>"; };
+		3C252DCC18BD208300647D7E /* M13ProgressViewFilteredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewFilteredImage.m; sourceTree = "<group>"; };
+		3C252DCD18BD208300647D7E /* M13ProgressViewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewImage.h; sourceTree = "<group>"; };
+		3C252DCE18BD208300647D7E /* M13ProgressViewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewImage.m; sourceTree = "<group>"; };
+		3C252DCF18BD208300647D7E /* M13ProgressViewPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewPie.h; sourceTree = "<group>"; };
+		3C252DD018BD208300647D7E /* M13ProgressViewPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewPie.m; sourceTree = "<group>"; };
+		3C252DD118BD208300647D7E /* M13ProgressViewRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewRing.h; sourceTree = "<group>"; };
+		3C252DD218BD208300647D7E /* M13ProgressViewRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewRing.m; sourceTree = "<group>"; };
+		3C252DD318BD208300647D7E /* M13ProgressViewSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewSegmentedBar.h; sourceTree = "<group>"; };
+		3C252DD418BD208300647D7E /* M13ProgressViewSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewSegmentedBar.m; sourceTree = "<group>"; };
+		3C252DD518BD208300647D7E /* M13ProgressViewSegmentedRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewSegmentedRing.h; sourceTree = "<group>"; };
+		3C252DD618BD208300647D7E /* M13ProgressViewSegmentedRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewSegmentedRing.m; sourceTree = "<group>"; };
+		3C252DD718BD208300647D7E /* M13ProgressViewStripedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewStripedBar.h; sourceTree = "<group>"; };
+		3C252DD818BD208300647D7E /* M13ProgressViewStripedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewStripedBar.m; sourceTree = "<group>"; };
+		3C252DE318BD20EC00647D7E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3CCCEAD317B4E0A800750A12 /* NSObject+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ABExtras.h"; sourceTree = "<group>"; };
 		3CCCEAD417B4E0A800750A12 /* NSObject+ABExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ABExtras.m"; sourceTree = "<group>"; };
 		3CCCEAD517B4E0A800750A12 /* UIImageView+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ABExtras.h"; sourceTree = "<group>"; };
@@ -93,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C252DE418BD20EC00647D7E /* Accelerate.framework in Frameworks */,
 				3CF16BDC179309B1006E912F /* QuartzCore.framework in Frameworks */,
 				3CF16BB617930123006E912F /* UIKit.framework in Frameworks */,
 				3CF16BB817930123006E912F /* Foundation.framework in Frameworks */,
@@ -103,6 +142,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C252DBD18BD200100647D7E /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				3C252DC418BD208300647D7E /* ProgressViews */,
+				3C252DBE18BD200100647D7E /* M13ProgressHUD.h */,
+				3C252DBF18BD200100647D7E /* M13ProgressHUD.m */,
+				3C252DC018BD200100647D7E /* UIImage+ImageEffects.h */,
+				3C252DC118BD200100647D7E /* UIImage+ImageEffects.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		3C252DC418BD208300647D7E /* ProgressViews */ = {
+			isa = PBXGroup;
+			children = (
+				3C252DC518BD208300647D7E /* M13ProgressView.h */,
+				3C252DC618BD208300647D7E /* M13ProgressView.m */,
+				3C252DC718BD208300647D7E /* M13ProgressViewBar.h */,
+				3C252DC818BD208300647D7E /* M13ProgressViewBar.m */,
+				3C252DC918BD208300647D7E /* M13ProgressViewBorderedBar.h */,
+				3C252DCA18BD208300647D7E /* M13ProgressViewBorderedBar.m */,
+				3C252DCB18BD208300647D7E /* M13ProgressViewFilteredImage.h */,
+				3C252DCC18BD208300647D7E /* M13ProgressViewFilteredImage.m */,
+				3C252DCD18BD208300647D7E /* M13ProgressViewImage.h */,
+				3C252DCE18BD208300647D7E /* M13ProgressViewImage.m */,
+				3C252DCF18BD208300647D7E /* M13ProgressViewPie.h */,
+				3C252DD018BD208300647D7E /* M13ProgressViewPie.m */,
+				3C252DD118BD208300647D7E /* M13ProgressViewRing.h */,
+				3C252DD218BD208300647D7E /* M13ProgressViewRing.m */,
+				3C252DD318BD208300647D7E /* M13ProgressViewSegmentedBar.h */,
+				3C252DD418BD208300647D7E /* M13ProgressViewSegmentedBar.m */,
+				3C252DD518BD208300647D7E /* M13ProgressViewSegmentedRing.h */,
+				3C252DD618BD208300647D7E /* M13ProgressViewSegmentedRing.m */,
+				3C252DD718BD208300647D7E /* M13ProgressViewStripedBar.h */,
+				3C252DD818BD208300647D7E /* M13ProgressViewStripedBar.m */,
+			);
+			path = ProgressViews;
+			sourceTree = "<group>";
+		};
 		3CCCEAD117B4E0A800750A12 /* CustomUINavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +227,7 @@
 		3CCCEAE717B4E0F800750A12 /* ABCustomUINavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				3C252DBD18BD200100647D7E /* HUD */,
 				3CCCEB1F17B4E29700750A12 /* ABCustomUINavigationController-Info.plist */,
 				3CCCEAE917B4E0F800750A12 /* ABCustomUINavigationController-Prefix.pch */,
 				3CCCEAEA17B4E0F800750A12 /* AppDelegate.h */,
@@ -225,6 +304,7 @@
 		3CF16BB417930123006E912F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C252DE318BD20EC00647D7E /* Accelerate.framework */,
 				3CF16BDB179309B1006E912F /* QuartzCore.framework */,
 				3CF16BB517930123006E912F /* UIKit.framework */,
 				3CF16BB717930123006E912F /* Foundation.framework */,
@@ -311,16 +391,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C252DDA18BD208300647D7E /* M13ProgressViewBar.m in Sources */,
+				3C252DDE18BD208300647D7E /* M13ProgressViewPie.m in Sources */,
 				3CCCEAE117B4E0A800750A12 /* NSObject+ABExtras.m in Sources */,
+				3C252DC318BD200100647D7E /* UIImage+ImageEffects.m in Sources */,
 				3CCCEAE217B4E0A800750A12 /* UIImageView+ABExtras.m in Sources */,
+				3C252DDB18BD208300647D7E /* M13ProgressViewBorderedBar.m in Sources */,
+				3C252DC218BD200100647D7E /* M13ProgressHUD.m in Sources */,
+				3C252DDC18BD208300647D7E /* M13ProgressViewFilteredImage.m in Sources */,
 				3CCCEAE317B4E0A800750A12 /* UINavigationController+ABExtras.m in Sources */,
+				3C252DDF18BD208300647D7E /* M13ProgressViewRing.m in Sources */,
 				3CCCEAE417B4E0A800750A12 /* UIView+ABExtras.m in Sources */,
+				3C252DDD18BD208300647D7E /* M13ProgressViewImage.m in Sources */,
+				3C252DE018BD208300647D7E /* M13ProgressViewSegmentedBar.m in Sources */,
+				3C252DE218BD208300647D7E /* M13ProgressViewStripedBar.m in Sources */,
 				3CCCEAE517B4E0A800750A12 /* CubeNavigationController.m in Sources */,
+				3C252DD918BD208300647D7E /* M13ProgressView.m in Sources */,
 				3CCCEAE617B4E0A800750A12 /* FlipSquaresNavigationController.m in Sources */,
 				3CCCEB0817B4E0F800750A12 /* AppDelegate.m in Sources */,
 				3CCCEB1317B4E0F800750A12 /* main.m in Sources */,
 				3CCCEB1417B4E0F800750A12 /* SecondViewController.m in Sources */,
 				3CCCEB1517B4E0F800750A12 /* ThirthViewController.m in Sources */,
+				3C252DE118BD208300647D7E /* M13ProgressViewSegmentedRing.m in Sources */,
 				3CCCEB1617B4E0F800750A12 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +494,7 @@
 		3CF16BD617930123006E912F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABCustomUINavigationControllerExample/ABCustomUINavigationController-Prefix.pch";
 				INFOPLIST_FILE = "ABCustomUINavigationControllerExample/ABCustomUINavigationController-Info.plist";
@@ -415,6 +508,7 @@
 		3CF16BD717930123006E912F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABCustomUINavigationControllerExample/ABCustomUINavigationController-Prefix.pch";
 				INFOPLIST_FILE = "ABCustomUINavigationControllerExample/ABCustomUINavigationController-Info.plist";
